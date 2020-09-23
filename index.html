@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script>
+
+        
+        document.onreadystatechange = function () {
+            if (document.readyState === 'complete') {
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function() {};
+                xhr.open('GET', 'http://www.google.com');
+                xhr.send();
+            }
+        }
+
+        
+    </script>
+</head>
+<body>
+    <label id="setonloaded"></label>
+</body>
+</html>
